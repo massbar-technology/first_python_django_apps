@@ -8,10 +8,19 @@ body {
     min-height: 100vh;
     display: grid;
     place-content: center;
-    font-size: 3rem;
+    font-size: 2rem;
     background-color: black;
     color: whitesmoke;
 }
 h1, p {
-    text-align: calc();
+    text-align: center;
+    font: 20px;
+}
+
+form {
+    font-size: 14px;
+    width: 450px;
+    border:3px solid #fff;
+    padding: 20px;
+    line-height: 20px;
 }
